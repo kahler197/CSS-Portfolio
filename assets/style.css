@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding-bottom: 20px 35px;
+    position: relative;
+    background-color: slategrey;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: black;
+    margin: 0;
+    text-align: left;
+    display: inline;
+}
+
+header a {
+    text-decoration: black;
+}
+
+header nav  {
+    float: right;
+    margin: 7px 0;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.intro {
+    display: inline;
+}
+
+.intro h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: left;
+    color: rgb(0, 0, 0);
+}
+
+.intro p {
+    float: right;
+}
+
+
