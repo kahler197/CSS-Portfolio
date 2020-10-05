@@ -114,6 +114,10 @@ img.headshot {
     width: 200px;
     height: 200px;
     border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ 
 }
 
 img.one {
@@ -132,11 +136,6 @@ img.two {
     border: 1px solid black;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     }
-
-.imageone h3 {
-    position: relative;
-    z-index: ???;
-}
 
 img.three {
         width: 700px;
@@ -176,20 +175,47 @@ img.one::after {
     text-align: center;
     font-size: 36px;
     font-weight: bold;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 1);
     border-color: rgba(220, 20, 60, 1);
-    border-bottom: 1px solid rgba(220, 20, 60, 1);
+    border-bottom: 1px solid rgba(255, 255, 255, 1);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-
+.contact {
+    background-image: url("../assets/images/code-1.jpg");
+}
 
 .contact-info > * {
     flex: 1;
     margin: 15px;
 }
 
+.contact-info p {
+    text-align: left;
+    font-size: 28px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgba(255, 255, 255, 1);
+}
+
+.contact-info div {
+    color: white;
+  }
+
+.contact-form h3 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 1);
+}
+
+.contact-form label {
+    color: rgba(255, 255, 255, 1);
+}
+
 .contact-form input {
-    border: 1px solid #024e76;
+    border: 1px solid rgba(255, 255, 255, 1);
     border-radius: 10px;
     display: block;
     padding: 7px 15px;
@@ -202,11 +228,12 @@ img.one::after {
 
   .contact-form textarea {
     background-color: rgba(255,255,255, 0.75);
-    border: 1px solid #024e76;
+    border: 1px solid  rgba(255, 255, 255, 1);
     border-radius: 10px;
     display: block;
     padding: 7px 15px;
     font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #024e76;
     width: 100%;
     margin-bottom: 15px;
@@ -218,11 +245,17 @@ img.one::after {
     border: none;
     border-radius: 10px;
     border-radius: 10px;
-    background: #fce138;
-    color: #024e76;
+    background: rgba(220, 20, 60, 1);
+    color: rgba(0, 0, 0, 0.5);
     text-align: center;
     padding: 15 px 0;
     font-size: 16px;
+  }
+
+  footer {
+      background-color: crimson;
+      color: rgba(255, 255, 255, 1);
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
 
 
