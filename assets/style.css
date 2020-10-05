@@ -110,6 +110,10 @@ header nav ul li a {
     background-position: 80%;
 }
 
+.gallery {
+    
+}
+
 img.one {
     width: 1500px;
     height: 300px;
@@ -117,16 +121,34 @@ img.one {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-img.two, img.three {
+img.two {
     width: 700px;
     height: 300px;
     margin-top: 50px;
     border: 1px solid black;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    display: flex;
-    justify-content: center;
-
     }
+
+    img.three {
+        width: 700px;
+        height: 300px;
+        margin-top: 50px;
+        border: 1px solid black;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        float: right;
+        }
+
+
+
+img.four {
+    width: 1500px;
+    height: 500px;
+    margin-top: 50px;
+    border: 1px solid black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-self: flex-end;
+}
 
 
 .hero-cta h2 {
